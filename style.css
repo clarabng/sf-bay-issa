@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  background: #647389;
+  padding: 20px;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav {
+  float: right;
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 100px;
+  padding: 2px 3px;
+  position: relative;
+  background: #dfeaf9;
+  border: 3px solid #030b34;
+  float: left;
+}
+
+div.content h1 {
+  color: #ec2b2b;
+  font-family: cursive;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+div.body h2 {
+  color: #ed6d14;
+  text-align: center;
+  font-family: serif;
+  font-size: 25px;
+}
+
+div.body p {
+  text-align: center;
+  font-weight: normal;
+  line-height: 40px;
+  overflow: hidden;
+  margin: 0px 80px;
+}
+
+div.join h1,
+h2,
+h3 {
+  text-align: center;
+  color: #d18b1f;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: cursive;
+}
+div.join p,
+div.voice p,
+div.pro p,
+div.ed p,
+div.career p,
+div.rec p {
+  text-align: center;
+  font-weight: normal;
+  line-height: 40px;
+  overflow: hidden;
+  margin: 0px 80px;
+}
+div.voice h4,
+div.pro h5,
+div.ed h6,
+div.career h7,
+div.rec h8 {
+  font-size: 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+div.about h1 {
+  font-family: cursive;
+  font-size: 40px;
+  color: #c22323;
+}
+div.about p {
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0px 80px;
+  text-align: center;
+}
+div.board h2 {
+  font-family: cursive;
+  font-size: 40px;
+  color: #c22323;
+}
+div.board p {
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0px 80px;
+  text-align: center;
+}
+div.roles h3 {
+  font-family: cursive;
+  font-size: 40px;
+  color: #c22323;
+}
+div.roles p,
+div.tca p,
+div.election p {
+  line-height: 40px;
+  margin: 0px 80px;
+  text-align: center;
+  font-weight: normal;
+}
+div.roles li,
+div.vice,
+div.program,
+div.comm,
+div.trea,
+div.mem,
+div.rec {
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0px 80px;
+  text-align: center;
+}
+div.roles h4,
+h5,
+h6,
+h7,
+h8,
+h9,
+h0 {
+  font-size: 22px;
+  font-weight: bold;
+}
+div.contact h2 {
+  font-family: cursive;
+  text-align: center;
+  color: #328b66;
+}
+div.contact img {
+  float: right;
+  text-align: right;
+  margin: 0px 80px;
+}
+div.contact p {
+  text-align: left;
+  float: left;
+  margin: 0px 80px;
+  font-weight: normal;
+  line-height: 30px;
+}
+div.event h1, div.rsa h1, div.tca h1,div.election h1 {
+  color: #be4e7c;
+  font-family: cursive;
+  font-size: 40px;
+}
+div.tca h1,
+div.election h1 {
+  font-size: 25px;
+}
+div.partner h1{
+  color: #7a2a2a;
+  font-family: cursive;
+}
+div.embed {
+  text-align: center;
+  float: center;
+  margin: 0px 80px;
+}
+div.partner p{
+   font-weight: normal;
+  line-height: 50px;
+  margin: 0px 80px;
+  text-align: center; 
+}
